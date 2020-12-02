@@ -1,4 +1,4 @@
-# TENT_Docker_Masternode
+# TENT Docker Masternode
 
 ## Docker Installation Setup
 
@@ -37,4 +37,3 @@ Ubuntu Based Systems (18.04-20.04) with Root permissions.
 #### Check Docker Status
 
 ```sudo systemctl status docker```
-
