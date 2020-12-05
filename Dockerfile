@@ -10,3 +10,5 @@ RUN \
     wget -N https://github.com/TENTOfficial/TENT/releases/download/3.1.0/snowgem-ubuntu-3.1.0-20201117.zip && \
     unzip -d /root/ snowgem-ubuntu-3.1.0-20201117.zip && \
     rm -r snowgem-ubuntu-3.1.0-20201117.zip
+
+ENTRYPOINT [ "/root/snowgemd" ]
