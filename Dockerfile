@@ -15,4 +15,4 @@ RUN \
     chmod +x /root/snowgem-cli && \
     chmod +x /root/snowgemd
 
-ENTRYPOINT [ "./root/snowgemd" ]
+ENTRYPOINT [ "/root/snowgemd" ]
