@@ -11,4 +11,4 @@ RUN \
     unzip -d /root/ snowgem-ubuntu-3.1.0-20201117.zip && \
     rm -r snowgem-ubuntu-3.1.0-20201117.zip
 
-ENTRYPOINT [ "/root/snowgemd" ]
+ENTRYPOINT [ "./root/snowgemd" ]
