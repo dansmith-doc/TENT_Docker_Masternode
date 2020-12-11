@@ -1,39 +1,11 @@
-# TENT Docker Masternode
+# TENT Docker Masternode System
 
-## Docker Installation Setup
+A Docker solution to setup multiple Masternodes on a single VPS.
 
-Ubuntu Based Systems (18.04-20.04) with Root permissions.
+Based upon Ubuntu 18.04/20.04 LTS with ipv6 enabled and a configured netplan.yml.
 
-### Update and Install Dependencies
+Configured for hosting TENT Masternodes (formally SnowGem).
 
-```sudo apt update && sudo apt upgrade```
+Code will be updated upon release.
 
-### Install Docker
-
-#### Install Dependancies
-
-```sudo apt-get install \ apt-transport-https \ ca-certificates \ curl \ gnupg-agent \ software-properties-common -y```
-
-#### Add GPG Key for Docker Repository
-
-```curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -```
-
-#### For Ubuntu 18:04 Add
-
-```sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"```
-
-#### For Ubuntu 20:04 Add
-
-```sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"```
-
-#### Update Repositories
-
-```sudo apt update```
-
-#### Install Docker-CE
-
-```sudo apt install docker-ce```
-
-#### Check Docker Status
-
-```sudo systemctl status docker```
+Instructions for setting up and configuring Docker are inluded within Repo.
